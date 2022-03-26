@@ -1,4 +1,4 @@
-# Nobel Prizes　Winners
+# Nobel Prizes Winners
 This was an assignment of Code Chrysalis back in August 2021. I made this single page application with vanilla JavaScript based on "nobels.js" file that was provided by Code Chrysalis.
 
 
