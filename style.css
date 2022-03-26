@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap');
+
+body {
+  text-align: center;
+  background-color: rgb(255, 249, 195)
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  background: rgb(255, 169, 8);
+  font-family: 'Fredoka One', cursive;
+  font-size: 60px;
+}
+
+button {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow:3px  3px 2px rgb(255, 169, 8),
+  -3px  3px 1px rgb(255, 169, 8),
+   3px -3px 1px rgb(255, 169, 8),
+  -3px -3px 1px rgb(255, 169, 8),
+   3px  0px 1px rgb(255, 169, 8),
+   0px  3px 1px rgb(255, 169, 8),
+  -3px  0px 1px rgb(255, 169, 8),
+   0px -3px 1px rgb(255, 169, 8);  ;
+  border-radius: 10px;
+  border-color:rgb(161, 161, 161);
+  font-size: 20pt;
+  font-weight: 300;
+  height: 200px;
+  width: 200px;
+  /*background: rgba(255, 255, 255, 0.01);*/
+  background-color: rgb(255, 210, 128); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+#physics {
+  background-image: url("https://1.bp.blogspot.com/-d5szvoYBvhM/XVKgbQPxspI/AAAAAAABUJ8/qBXs5Uf8CI4eFaTmU4NJE9I9JZzvvr2_gCLcBGAs/s1600/tekono_genri2.png"); 
+}
+
+#chemistry {
+  background-image: url("https://1.bp.blogspot.com/-SwkyGTlfbq0/UO_3erDTL2I/AAAAAAAAKt4/uiBsvk79-U8/s1600/scince_flask.png");
+}
+
+#medicine {
+  background-image: url("https://2.bp.blogspot.com/-hLQIQzjF4yc/UZmCJ_vKV8I/AAAAAAAATcQ/WjJRkamTkgs/s400/medicine_capsule_set.png");
+}
+
+#peace {
+  background-image: url("https://2.bp.blogspot.com/-b6ShVCH-bTU/UzoZ_LxbfrI/AAAAAAAAexM/3czUZ3iFK1o/s400/hato_olive.png");
+}
+
+#economics {
+  background-image: url("https://2.bp.blogspot.com/-Qhzp9olrUng/USNoSkIWw0I/AAAAAAAANUA/-u-yNsWo7t0/s400/money_bag_dollar.png");
+}
+
+#literature {
+  background-image: url("https://4.bp.blogspot.com/-2t-ECy35d50/UPzH73UAg3I/AAAAAAAAKz4/OJZ0yCVaRbU/s400/book.png");
+}
+
+#content {
+  font-family: 'Open Sans', sans-serif;
+  background-color:rgb(255, 210, 128);
+  border: 2px dashed rgb(161, 161, 161);
+  border-radius: 10px;
+  margin: 30px;
+  padding: 15px 0px;
+}
+
+#content-header {
+  color: rgb(255, 169, 8);
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.year {
+  background-color:rgb(255, 169, 8);
+}
+
+.to-top {
+  position: fixed;
+  display: block;
+  background: rgb(243, 104, 127);
+  border-radius: 10px;
+  bottom: 15px;
+  right: 15px;
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.966);
+}
+
+.hide {
+  display: none;
+}
